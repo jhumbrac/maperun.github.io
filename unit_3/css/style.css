@@ -1,0 +1,15 @@
+body {
+	color: navy;
+	background: url("images/IMG_7448 (2).jpg");
+	background-size: cover;
+	font-family: Ariel;	
+}
+h1	{
+	font-size: 52px;
+	font-family: Ariel;
+	font-style: italic;
+	text-align: left;
+}
+nav a  {
+	margin-right: 20px;
+}
