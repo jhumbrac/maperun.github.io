@@ -1,12 +1,12 @@
 body {
 	color: navy;
-	background: url("images/IMG_7448 (2).jpg");
+	background: url("../images/IMG_7448.JPG");
 	background-size: cover;
-	font-family: Ariel;	
+	font-family: Arial;	
 }
 h1	{
 	font-size: 52px;
-	font-family: Ariel;
+	font-family: Arial;
 	font-style: italic;
 	text-align: left;
 }
