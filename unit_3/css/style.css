@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro');
 body {
-	color: navy;
 	background: url("../images/IMG_7448.JPG");
-	background-size: cover;
-	font-family: Arial;	
+	background-size: cover;		
 }
-h1	{
-	font-size: 52px;
-	font-family: Arial;
-	font-style: italic;
-	text-align: left;
+
+h1	{	
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 60px;	
 }
+
+h3	{
+	font-family: 'Shadows Into Light', cursive;
+}
+
+p, h5  	{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
 nav a  {
 	margin-right: 20px;
 }
