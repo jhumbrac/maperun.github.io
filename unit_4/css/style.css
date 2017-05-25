@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro');
+img { width:300px; }
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#333;
+	line-height:1.3;
+	font-size:16px;
+}
+section {
+	padding: 5em 0;
+}
+h1	{	
+	font-family: 'Shadows Into Light', cursive;
+	font-size:2em;	
+}
+h1 span {
+	font-size:2em;
+}
+h2	{
+	font-family: 'Shadows Into Light', cursive;
+}
+nav a  {
+	margin-right: 20px;
+}
+#intro {
+	background: url("../images/IMG_7448.JPG");
+	background-size: cover;
+	background-repeat:no-repeat;
+	height: 90vh;
+	color: #fff;
+	padding: 5em 0 0 10em;
+}
