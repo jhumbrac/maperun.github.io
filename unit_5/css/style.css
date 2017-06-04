@@ -30,7 +30,7 @@ h1	{
 	font-size:2em;	
 }
 h1 span {
-	font-size:2em;
+	font-size: 2.5em;
 }
 h2	{
 	font-family: 'Shadows Into Light', cursive;
@@ -42,7 +42,11 @@ nav a  {
 	background: url("../images/IMG_7448.JPG");
 	background-size: cover;
 	background-repeat:no-repeat;
-	height: 90vh;
+	height: 85vh;
 	color: #fff;
-	padding: 5em 0 0 10em;
+	padding: 4em 0 0 10em;
 }
+#slogan {
+	font-style: italic;
+}
+
