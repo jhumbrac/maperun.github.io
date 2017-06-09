@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro');
-img { width:300px; }
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -14,9 +13,9 @@ header {
 	padding: 20px;
 }
 section {
-	background-color: #F1E9E4;
-	border: 1px black solid;
-	padding: 20px;
+	/* background-color: #F1E9E4; */
+	/* border: 1px black solid; */
+	/* padding: 20px; */
 }
 footer {
 	text-align: center;
@@ -34,6 +33,7 @@ h1 span {
 h2	{
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 40px;
+	margin-bottom: .5em;
 }
 nav a  {
 	margin-right: 20px;
@@ -54,24 +54,35 @@ nav a  {
 	border: 1px black solid;
 	padding: 20px;
 }
-#right {
-	float:left;
-	width: 30%;
+#about,#travels {
+	margin:auto;
+	width: 60em;
+	padding: 4em 0;
 }
-#left {
-background-color: #F5D6C5;
-border: 1px black solid;
-padding: 20px;
-float: right;
-width: 62%;
+#about > * {
+	padding-left: 4em;
+	float: left;
+	width: 50%;
+}
+#about > img {
+	padding-left:0;
+	padding-right: 4em;
+}
+#travels > * {
+	padding: 2em;
+	float: right;
+	width: 50%;
+}
+#travels > img {
+	/* width: 25%; */
 }
 .clearfix:after {
-visibility: hidden;
-display: block;
-font-size: 0;
-content: " ";
-clear: both;
-height: 0;
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
 
