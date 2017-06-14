@@ -15,12 +15,17 @@ header {
 	padding: 20px;
 }
 
-section {
-	background-color: #F1E9E4;
-	border: 1px black solid;
-	padding: 20px;
-	
+section > * {
+	/*background-color: #F1E9E4;*/
+	/*border: 1px black solid;*/
+	/*padding: 20px;*/
 }
+
+
+.content {
+	margin: 10%;
+}
+
 
 footer {
 	text-align: center;
@@ -40,7 +45,7 @@ h1 span {
 
 h2	{
 	font-family: 'Shadows Into Light', cursive;
-	font-size: 40px;
+	font-size: 50px;
 	margin-bottom: .5em;
 }
 
@@ -61,22 +66,24 @@ nav a  {
 	font-style: italic;
 }
 
-#two_column {
+/*#two_column {
 	background color: #FFB7CF;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 20px;*/
 }
 
-#about,#travels {
+#about,#travels,#portfolio {
 	margin: auto;
-	width: 50em;
-	padding: 4em 0;
+	width: 60em;
+	/*padding: 4em 0;*/
 }
 
 #about > * {
-	padding-left: 6em;
+	padding: 0 6em 6em 6em;
+	/*padding-top: 6em;*/
 	float: left;
 	width: 50%;
+
 } 
 
 #about > img {
@@ -85,13 +92,18 @@ nav a  {
 }
 
 #travels > * {
-	padding: 2em;
+	padding: 6em;
 	float: right;
 	width: 50%;
 }
 
 #travels > img {
 	padding-left: 5em;
+}
+
+#portfolio > * {
+	float: left;
+	padding: 6em 6em 0 6em;
 }
 
 .clearfix:after {
