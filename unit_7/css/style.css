@@ -28,10 +28,11 @@ section > * {
 
 
 footer {
+	font-size: 18px;
 	text-align: center;
 	background-color: #A5C4E3;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 10px;
 }
 
 h1	{	
@@ -47,6 +48,10 @@ h2	{
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 50px;
 	margin-bottom: .5em;
+}
+
+h2 span {
+	font-size: 40px;
 }
 
 nav a  {
@@ -102,6 +107,7 @@ nav a  {
 }
 
 #portfolio > * {
+	font-size: 20px;
 	float: left;
 	padding: 6em 6em 0 6em;
 }
