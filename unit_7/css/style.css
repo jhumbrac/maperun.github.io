@@ -15,11 +15,11 @@ header {
 	padding: 20px;
 }
 
-section > * {
-	/*background-color: #F1E9E4;*/
-	/*border: 1px black solid;*/
-	/*padding: 20px;*/
-}
+/*section > * {
+	background-color: #F1E9E4;
+	border: 1px black solid;
+	padding: 20px;
+}*/
 
 
 .content {
@@ -69,12 +69,6 @@ nav a  {
 
 #slogan {
 	font-style: italic;
-}
-
-/*#two_column {
-	background color: #FFB7CF;
-	border: 1px black solid;
-	padding: 20px;*/
 }
 
 #about,#travels,#portfolio {
