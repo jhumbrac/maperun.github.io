@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro');
-img { width:400px; }
 * { margin:0; padding:0; box-sizing: border-box; }
 
 body {
@@ -7,7 +6,7 @@ body {
 	color:#333;
 	background-color: #F5F1ED;
 	line-height:1.3;
-	font-size:16px;
+	font-size: 18px;
 }
 
 header {
@@ -94,14 +93,15 @@ h2 span {
 	padding-right: 4em;
 }*/
 
-#travels > * {
+#travels > div {
 	padding: 6em;
 	float: right;
-	width: 50%;
+	width: 66.66%;
 }
-
 #travels > img {
-	padding-left: 5em;
+	padding: 3em;
+	width:33.33%;
+	float:right;
 }
 
 #portfolio > * {
@@ -123,6 +123,26 @@ content: " ";
 clear: both;
 height: 0;
 }
-
+@media only screen and (max-width: 1150px) {
+	#about > *, #portfolio > * {
+		padding:3em;
+	}
+}
+@media only screen and (max-width:1010px) {
+	#travels div, #travels img {
+		padding:3em;
+		width:50%;
+	}
+}
+@media only screen and (max-width:900px) {
+	#about > *, #portfolio > *, #travels div, #travels img {
+		padding:2em;
+	}
+}
+@media only screen and (max-width:780px) {
+	#about > *, #portfolio > *, #travels div, #travels img {
+		width:100%;
+	}
+}
 
 
